@@ -1,0 +1,300 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/***************************
+    **** header style*****
+*****************************/
+header{
+    width: 100%;
+    height: 800px;
+    background-color:#000080;
+    margin-bottom: 70px;
+}
+.manubar{
+    display: flex;
+    justify-content: space-around;
+    padding: 60px;
+}
+.manu a{
+    text-decoration: none;
+    margin-left: 35px;
+}
+.manu a:hover{
+    
+    color: orange;
+}
+.manubar a{
+    margin-right: 10px;
+    color: white;
+    text-decoration: none;
+}
+.header-title{
+    display: flex;
+    padding: 40px 300px;
+    color: white;
+    justify-content:space-between;
+}
+span{
+    background-color:#e93074;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+span:hover{
+    background-color: orange;
+}
+
+.fas{
+    color: white;
+    margin-right: 10px;
+    
+}
+.header-info h1{
+    font-size:70px ;
+}
+
+.header-info .fas{
+    margin-left: 10px;
+}
+
+.header-img img{
+    width: 600px;
+    height: 500px;
+   
+}
+
+.header-title-2{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 210px;
+
+}
+
+.header-info p{
+    font-size: 20px;
+}
+
+.players img{
+    width: 390px;
+    height: 274px;
+    padding: 5px;
+}
+.players{
+    background-color: #fff;
+    width: 400px;
+    height: 520px;
+    align-items: center;
+    padding: 15px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    margin: 15px;
+}
+
+.player-detials{
+    height: 154px;
+    width: 325px;
+}
+.top-player{
+    display: flex;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+  
+}
+.continar{
+    width: 80%;
+    margin: auto;
+}
+
+
+ /********************** 
+ ********logo-img*******
+ **********************/
+
+ 
+
+ .logo-img img{
+     width: 350px;
+     height: 110px;
+     margin-left: 750px;
+ }
+
+ /************************
+ ******** footer*********
+*************************/
+.footer{
+    width: 100%;
+    height: 300px;
+    background-color: #00203F;
+}
+
+.footer .footer-icon{
+    font-size: 50px;
+    text-align: center;
+  
+    color: #fff;
+
+    
+}
+
+.footer h4{
+    font-size: 30px;
+    text-align: center;
+    padding-top:10px;
+    color: #fff;
+}
+.copy-right{
+    text-align: center;
+    color: #fff;
+   
+}
+
+/**********************
+****** media Qurey*****
+*************************/
+
+@media only screen and (max-width:688px){
+
+
+    .continar{
+        width: 90%;
+    }
+
+    
+    
+    header{
+        width: 100%;
+        /* height: 800px; */
+        background-color:#000080;
+        
+    }
+    
+    
+    
+    .header-title{
+        display: flex;
+        flex-direction: column;
+        padding: 40px auto;
+        color: white;
+        justify-content:center;
+    }
+    
+    
+    
+    .header-info h1{
+        font-size:48px ;
+    }
+    
+    
+    
+    .header-img img{
+        width: 50%;
+       
+       
+    }
+    
+    .header-title-2{
+        display: flex;
+        justify-content:center;
+        margin: 10px auto;
+    
+    }
+    
+    .header-info p{
+        font-size: 20px;
+    }
+
+    /* players */
+
+    .top-player{
+        display: flex;
+        flex-wrap: wrap;
+        grid-template-columns: repeat(1,1fr);
+        justify-content: center;
+      
+    }
+
+    .players img{
+        width:100%;
+        height: 274px;
+        padding: 5px;
+    }
+    .players{
+        background-color: #fff;
+        width: 400px;
+        height: 520px;
+        align-items: center;
+        padding: 15px;
+        box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+        margin: 15px;
+    }
+    
+    .player-detials{
+        height: 154px;
+        width: 325px;
+    }
+
+    
+    /* heder-title-2  */
+
+    .header-info h1{
+        font-size:36px;
+    }
+    
+    .header-info .fas{
+        margin-left: 10px;
+    }
+    
+    .header-img img{
+        width: 100%;
+        
+       
+    }
+    
+    .header-title-2{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 30px 0px;
+    
+    }
+    
+    .header-info p{
+        font-size: 16px;
+    }
+
+    /* footer  */
+
+    .footer{
+        width: 100%;
+        
+        background-color: #00203F;
+    }
+    
+    .footer .footer-icon{
+        font-size: 50px;
+        text-align: center;
+      
+        color: #fff;
+    
+        
+    }
+    
+    .footer h4{
+        font-size: 30px;
+        text-align: center;
+        padding-top:10px;
+        color: #fff;
+    }
+    .copy-right{
+        text-align: center;
+        color: #fff;
+       
+    }
+    
+}
+
